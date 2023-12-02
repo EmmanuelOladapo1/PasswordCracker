@@ -1,4 +1,4 @@
-<h1>Password Cracker</h1>
+<h1>Password Checker</h1>
 
 
 
@@ -36,7 +36,7 @@ Assigned the password hash values to the username in a text file: <br/>
 <img src="https://i.imgur.com/OgcbHcE.png" height="80%" width="80%" alt="Password Cracker Steps"/>
 <br />
 <br />
-The first part of the password cracker:  <br/>
+The first part of the password checker:  <br/>
 <img src="https://i.imgur.com/jOucY6S.png" height="80%" width="80%" alt="Password Cracker Steps"/>
 <br /> Import hashlib  imports the Python hashlib library, which provides hash functions like SHA-256 for secure hashing. 
   'user_hash_dict = {}' initializes an empty dictionary called user_hash_dict. 
@@ -51,7 +51,7 @@ The first part of the password cracker:  <br/>
   'with open('Username_hashes.txt', 'r') as f:'this line opens the file 'Username_hashes.txt' in read ('r') mode using a context manager and assigns it to the variable f.
 <br />
 
-The second part of the password cracker:  <br/>
+The second part of the password checker:  <br/>
 <img src="https://imgur.com/2rVjuct.png" height="80%" width="80%" alt="Password Cracker Steps"/>
 <br />hashed_password = hashlib.sha256(password.encode('utf-8')).hexdigest(): This line takes the password string and converts it into a SHA-256 hash.
 <br />for username, hash in user_hash_dict.items(): This line initiates a loop that iterates through the items (key-value pairs) in the user_hash_dict.
