@@ -3,7 +3,8 @@
 
 
 <h2>Description</h2>
-The project consists of two Python files and text files. Generate_hashes.py is used to convert string values (user's passwords in this case) in variables that are assigned to their username. the list of user's passwords is saved in a common password text file and the usernames are saved in a username hashes  text file.   
+The project consists of two Python files and text files. Generate_hashes.py is used to convert string values (user's passwords in this case) in variables that are assigned to their username. the list of user's passwords is saved in a common password text file and the usernames are saved in a username hashes  text file. The Password_Cracker.py converts the inputted string into SHA256 using UTF-8. This SHA256 value is compared to the SHA256 value of the commonly known passwords on the site. 
+ 
 <br />
 
 
